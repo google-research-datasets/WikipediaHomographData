@@ -16,7 +16,8 @@ There are 161 unique homographs and roughly 100 examples per homograph.
 
 ## Organization
 
-The file `data/homographs.tsv` is a TSV file with the following fields:
+The files `data/homographs_train.tsv` and `data/homographs_test.tsv` are TSV
+files with the following fields:
 
 * `HOMOGRAPH` (string): the homograph word itself
 * `WORDID` (string): name of the pronunciation
@@ -26,20 +27,22 @@ The file `data/homographs.tsv` is a TSV file with the following fields:
 * `END_INDEX` (integer): the last byte---exclusive---of the target homograph
    in `TEXT`
 
-The file `data/wordids.tsv` is a TSV file which maps from the `WORDID`
-field above to information used by the annotator: -a short human-readable
-description of the `WORDID`, and a transcription of the `WORDID`. Note that
-neither are intended to be authoritative; they are simply to help users
-distinguish between the various `WORDID`s for a homograph. The final two fields
-have some impressionistic taxonomic information about the nature of the
-homography itself intended for use during error analysis. The following fields
-are present:
+These two files represent a suggested 90%/10% train/test split stratified by
+homograph.
+
+The file `data/wordids.tsv` is a TSV file which maps from the `WORDID` field
+above to information used by the annotator: -a short human-readable description
+of the `WORDID`, and a transcription of the `WORDID`. Note that neither are 
+intended to be authoritative; they are simply to help users distinguish between
+the various `WORDID`s for a homograph. The final two fields have some
+impressionistic taxonomic information about the nature of the homography itself
+intended for use during error analysis. The following fields are present:
 
 * `HOMOGRAPH` (string): the homograph word itself
 * `WORDID` (string): name of the pronunciation
 * `LABEL` (string): a short human-readable description of the `WORDID`
 * `PRONUNCIATION` (string): a phonemic transcription of the `WORDID` in US
-  English; the format is essentially
+  English; the format is
   [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) except
   that stress is indicated on the vowel, as in
   [ARPAbet](https://en.wikipedia.org/wiki/ARPABET)
