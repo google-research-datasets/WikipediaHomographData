@@ -42,18 +42,18 @@ intended for use during error analysis. The following fields are present:
 * `WORDID` (string): name of the pronunciation
 * `LABEL` (string): a short human-readable description of the `WORDID`
 * `PRONUNCIATION` (string): a phonemic transcription of the `WORDID` in US
-  English; the format is
-  [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) except
-  that stress is indicated on the vowel, as in
-  [ARPAbet](https://en.wikipedia.org/wiki/ARPABET)
-* `HOMOGRAPHY_TYPE` (string): an impressionistic description of the the nature
-  of the homography
-* `FINE_HOMOGRAPHY_TYPE` (string): a more detailed description of the above
+  English.
+* `HOMOGRAPHY_TYPE` (string): a binary category describing the broad source of
+  homography: morphosyntactic derivations from the same lemma, or lexically
+  distinct terms.
+* `FINE_HOMOGRAPHY_TYPE` (string): a more detailed classification of the above.
 
 ## Authors
 
-This data was collected by [Kyle Gorman](mailto:kbg@google.com) with help from
-[Gleb Mazovetskiy](mailto:glebm@google.com) and Google linguists and annotators.
+This data was collected by [Kyle Gorman](mailto:kbg@google.com),
+[Vitaly Nikolaev](mailto:vitalyn@google.com), and
+[Gleb Mazovetskiy](mailto:glebm@google.com), with help from a team of linguists
+and annotators.
 
 ## License
 
