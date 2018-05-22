@@ -3,7 +3,14 @@
 This repository provides labeled data for training homograph disambiguation
 models.
 
-[Citations to follow.--kbg@]
+This repository provides labeled data for training homograph disambiguation
+models, as described in:
+
+Gorman, K., Mazovetskiy, G., and Nikolaev, V. (2018). Improving homograph
+disambiguation with machine learning. In Proceedings of LREC, 1349-1352.
+
+If you use this data in a publication, we would appreciate if you cite this
+paper.
 
 ## Annotation
 
@@ -19,13 +26,12 @@ There are 161 unique homographs and roughly 100 examples per homograph.
 The files `data/homographs_train.tsv` and `data/homographs_test.tsv` are TSV
 files with the following fields:
 
-* `HOMOGRAPH` (string): the homograph word itself
-* `WORDID` (string): name of the pronunciation
-* `TEXT` (string): text of the example
-* `START_INDEX` (integer): the first byte---inclusive--of the target homograph
-   in `TEXT`
-* `END_INDEX` (integer): the last byte---exclusive---of the target homograph
-   in `TEXT`
+* `homograph`: the homograph word itself
+* `wordid`: name of the pronunciation
+* `sentence`: text of the example
+* `start`: the first byte---inclusive--of the target homograph in
+   `sentence`
+* `end: the last byte---exclusive---of the target homograph in `sentence`
 
 These two files represent a suggested 90%/10% train/test split stratified by
 homograph.
@@ -38,15 +44,14 @@ the various `WORDID`s for a homograph. The final two fields have some
 impressionistic taxonomic information about the nature of the homography itself
 intended for use during error analysis. The following fields are present:
 
-* `HOMOGRAPH` (string): the homograph word itself
-* `WORDID` (string): name of the pronunciation
-* `LABEL` (string): a short human-readable description of the `WORDID`
-* `PRONUNCIATION` (string): a phonemic transcription of the `WORDID` in US
-  English.
-* `HOMOGRAPHY_TYPE` (string): a binary category describing the broad source of
+* `homograph`: the homograph word itself
+* `wordid`: name of the pronunciation
+* `label`: a short human-readable description of the `wordid`
+* `pronunciation`: a phonemic transcription of the `wordid` in US English.
+* `homograph_type`: a binary category describing the broad source of
   homography: morphosyntactic derivations from the same lemma, or lexically
   distinct terms.
-* `FINE_HOMOGRAPHY_TYPE` (string): a more detailed classification of the above.
+* `fine_homography_type`: a more detailed classification of the above.
 
 ## Authors
 
