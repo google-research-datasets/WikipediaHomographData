@@ -1,9 +1,6 @@
 # Homograph disambiguation data
 
 This repository provides labeled data for training homograph disambiguation
-models.
-
-This repository provides labeled data for training homograph disambiguation
 models, as described in:
 
 Gorman, K., Mazovetskiy, G., and Nikolaev, V. (2018). Improving homograph
