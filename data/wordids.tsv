@@ -321,5 +321,7 @@
 "use"	"use_vrb"	"verb"	"'juːz"	"Lexical/Morphosyntactic"	"PoS/PSI"
 "wind"	"wind_nou"	"noun"	"'wɪnd"	"Lexical"	"NSO"
 "wind"	"wind_vrb"	"verb"	"'waɪnd"	"Lexical"	"NSO"
+"winds"	"winds_nou"	"noun"	"'wɪndz"	"Lexical"	"NSO"
+"winds"	"winds_vrb"	"verb"	"'waɪndz"	"Lexical"	"NSO"
 "wound"	"wound_nou-vrb"	"noun-verb"	"'wuːnd"	"Lexical"	"NSO"
 "wound"	"wound_vrb"	"past tense"	"'waʊnd"	"Lexical"	"NSO"
