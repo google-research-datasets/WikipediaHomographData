@@ -28,7 +28,7 @@ the following fields:
 * `sentence`: text of the example
 * `start`: the first byte---inclusive--of the target homograph in
    `sentence`
-* `end: the last byte---exclusive---of the target homograph in `sentence`
+* `end`: the last byte---exclusive---of the target homograph in `sentence`
 
 These two files represent a suggested 90%/10% train/test split stratified by
 homograph.
