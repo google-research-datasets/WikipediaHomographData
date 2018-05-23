@@ -20,8 +20,8 @@ There are 161 unique homographs and roughly 100 examples per homograph.
 
 ## Organization
 
-The files `data/homographs_train.tsv` and `data/homographs_test.tsv` are TSV
-files with the following fields:
+The files in the directories `data/train` and `data/eval` are TSV files with
+the following fields:
 
 * `homograph`: the homograph word itself
 * `wordid`: name of the pronunciation
