@@ -16,7 +16,7 @@ initially labeled for the most likely `WORDID` (as defined below) in context by
 a team of three annotators. In the case that all three did not agree on the
 `WORDID`, a fourth senior annotator resolved the disagreements.
 
-There are 161 unique homographs and roughly 100 examples per homograph.
+There are now 162 unique homographs and roughly 100 examples per homograph.
 
 ## Organization
 
