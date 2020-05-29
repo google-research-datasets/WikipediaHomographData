@@ -3,8 +3,11 @@
 This repository provides labeled data for training homograph disambiguation
 models, as described in:
 
-Gorman, K., Mazovetskiy, G., and Nikolaev, V. (2018). Improving homograph
-disambiguation with machine learning. In Proceedings of LREC, 1349-1352.
+Gorman, K., Mazovetskiy, G., and Nikolaev, V. (2018). [Improving homograph
+disambiguation with machine
+learning](https://www.aclweb.org/anthology/L18-1215/). In 
+_Proceedings of the Eleventh International Conference on Language Resources
+and Evaluation_, pages 1349-1352. Miyazaki, Japan.
 
 If you use this data in a publication, we would appreciate if you cite this
 paper.
