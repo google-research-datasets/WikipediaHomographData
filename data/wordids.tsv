@@ -283,8 +283,6 @@
 "rerelease"	"rerelease_vrb"	"verb"	"ˌɹiːɹə'liːs"	"Morphosyntactic"	"PoS"
 "resume"	"resume_nou"	"résumé"	"'ɹɛzəˌmeɪ"	"Lexical"	"NSO"
 "resume"	"resume_vrb"	"verb"	"ɹə'zuːm"	"Lexical"	"NSO"
-"retard"	"retard_nou"	"noun"	"'ɹiːˌtɑːɹd"	"Lexical"	"PSI"
-"retard"	"retard_vrb"	"verb"	"ɹə'tɑːɹd"	"Lexical"	"PSI"
 "rodeo"	"rodeo_geo"	"street"	"ˌɹoʊ'deɪˌoʊ"	"Lexical"	"NSO (loan word vs proper name)"
 "rodeo"	"rodeo"	"noun-verb"	"'ɹoʊˌdiːˌoʊ"	"Lexical"	"NSO (loan word vs proper name)"
 "row"	"row_1"	"line / propel a boat"	"'ɹoʊ"	"Lexical"	"NSO"
